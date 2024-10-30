@@ -24,9 +24,10 @@ const images = [
           <img src="${url}" alt="${alt}" class="gallery-image">
         </li>`;
     })
-    .join(''); // Dizi elemanlarını birleştir
+    .join(''); 
+// Dizi elemanlarını birleştir
   
-  // Galeriyi DOM'a ekle
+
+// Galeriyi DOM'a ekle
   gallery.insertAdjacentHTML('beforeend', galleryItems);
 
-  
